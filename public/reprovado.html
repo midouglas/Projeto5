@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Aluno Reprovado</title>
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body class="reprovado">
+  <main class="cartao">
+    <header class="topo">
+      <div class="icone">📚</div>
+      <h1>{{situacao}}</h1>
+    </header>
+    <section class="conteudo">
+      <div class="notas">
+        <div class="nota"><span>P1</span><strong>{{p1}}</strong></div>
+        <div class="nota"><span>P2</span><strong>{{p2}}</strong></div>
+      </div>
+      <div class="media">
+        <span>Média final</span>
+        <strong>{{media}}</strong>
+      </div>
+      <p>Não foi desta vez. A média mínima para aprovação é 6.0.</p>
+      <a class="botao" href="/">Calcular outra média</a>
+    </section>
+  </main>
+</body>
+</html>

@@ -1,0 +1,16 @@
+{
+  "name": "calculo-media",
+  "version": "1.0.0",
+  "description": "Aplicação Web em Node.js (sem frameworks) que calcula a média de P1 e P2 e informa a situação do aluno.",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "keywords": [
+    "node",
+    "http",
+    "media"
+  ],
+  "author": "",
+  "license": "ISC"
+}
